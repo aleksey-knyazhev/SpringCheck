@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t egor/jpipeline:latest .'
+        sh 'docker build -t aleksey/jpipeline:latest .'
       }
     }
     stage('Deploy') {
